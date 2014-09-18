@@ -43,7 +43,7 @@ makeCacheMatrix <- function(x=numeric())
     }
     
     
-    # what does this do
+    # list containing a reference to each function inside makeCacheMatrix
     list(set = set, get = get,
          setinverse = setinverse,
          getinverse = getinverse)    
